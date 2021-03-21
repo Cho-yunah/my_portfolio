@@ -3,23 +3,26 @@
   <head>
     <title>infinite_carousel</title>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
   </head>
   <body>
     <!-- infinity carousel 만들기  -->
-<div class="carousel-container">
-  <div class="showing-box">  
-    <ul class="images-wrapper">
-      <li class="slide-img img1">img1</li>
-      <li class="slide-img img2">img2</li>
-      <li class="slide-img img3">img3</li>
-      <li class="slide-img img4">img4</li>
-      <li class="slide-img img5">img5</li>
-    </ul>
-  </div>
-  <button class="prev-btn"> < </button>
-  <button class="next-btn"> > </button>
-</div>
-    </ul>
+      <div class="carousel-container">
+          <div class="showing-box">  
+            <ul class="images-wrapper">
+              <li class="slide-img img1"><div class="countryName">France</div><img src="./images/Paris.jpg" alt="Paris"></li>
+              <li class="slide-img img2"><div class="countryName">THailand</div><img src="./images/Thailand.jpg" alt="Thailand"></li>
+              <li class="slide-img img3"><div class="countryName">Canada</div><img src="./images/Canada.jpg" alt="Canada"></li>
+              <li class="slide-img img4"><div class="countryName">Japan</div><img src="./images/japan.jpg" alt="japan"></li>
+              <li class="slide-img img5"><div class="countryName">U.S.</div><img src="./images/NewYork.jpg" alt="NewYork"></li>
+            </ul>
+          </div>
+
+          <button class="prev-btn"><i class="fas fa-angle-left"></i></button>
+          <button class="next-btn"> <i class="fas fa-angle-right"></i></button>
+        </ul>
+      </div>
     <script src="./infinite_carousel.js"></script>
   </body>
 </html>
