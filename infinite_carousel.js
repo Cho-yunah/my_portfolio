@@ -48,7 +48,7 @@ $prevBtn.onclick = () => {
 };
 
 // 3초에 한번씩 자동으로 이동
-/*const startChangeImage = () => {
+const startChangeImage = () => {
   setInterval(() => {
     imageCount++;
     if (imageCount <= imgLength + 1) moveToNextImage();
@@ -61,4 +61,4 @@ $prevBtn.onclick = () => {
     }
   }, 2500);
 };
-startChangeImage();*/
+startChangeImage();
