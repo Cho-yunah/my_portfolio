@@ -1,0 +1,28 @@
+.list-header {
+  font-size: 18px;
+  color: rgb(187, 149, 99);
+  text-align: center;
+}
+
+.recommend-container {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  background: rgb(138, 168, 172);
+}
+.recommend-list {
+  color: rgb(176, 228, 210);
+  width: 100%;
+  min-height: 400px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.recommend-item {
+  width: 100%;
+  height: 60px;
+  background: rgb(238, 196, 210);
+  border: 1px solid #909090;
+  border-radius: 10px;
+  margin: 10px 0;
+}
