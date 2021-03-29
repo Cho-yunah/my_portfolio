@@ -6,9 +6,7 @@
 
 ## 1. Infinite Carousel
 
-[Infinite Carousel]: https://github.com/Cho-yunah/my_portfolio/blob/master/infinite_carousel.js
-
-1. css : **translateX**를 사용하여 슬라이드 이동 ( translateY, translate3d 비교 정리 (link 추가할것))
+1. css : **translateX**를 사용하여 슬라이드 이동 ( translateY, translate3d 비교 정리)
 
 2. js: cloneNode와 setTimeout 를 활용하여 자연스러운 애니메이션 효과 구현
 
